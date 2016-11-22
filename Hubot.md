@@ -35,7 +35,7 @@ yo hubot --adapter=slack
 HUBOT_SLACK_TOKEN=xoxb-YOUR-TOKEN-HERE ./bin/hubot --adapter slack
 
 # Sample
-# HUBOT_SLACK_TOKEN=xoxb-107692746469-xLROIkuJzYfhzQ22p2XOrYcA ./bin/hubot --adapter slack
+# HUBOT_SLACK_TOKEN=xxxxxx ./bin/hubot --adapter slack
 ``` 
 
 ## Deploy Hubot to Heroku
