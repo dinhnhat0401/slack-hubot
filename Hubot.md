@@ -1,4 +1,6 @@
-# What is Hubot?
+# About Hubot
+
+## What is Hubot?
 
 Hubot is an open source chat robot for your company that's easy to program using simple scripts written in CoffeeScript and runs on Node.js.
 
