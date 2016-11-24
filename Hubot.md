@@ -56,6 +56,7 @@ https://signup.heroku.com/login
 1. Install `Heroku Toolbelt`
 https://devcenter.heroku.com/articles/heroku-command-line#debian-ubuntu
 
+2. Heroku projects setup
 ```bash
 
 cd `path-to-your-hubot-folder`
