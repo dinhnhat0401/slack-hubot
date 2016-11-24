@@ -6,6 +6,7 @@ Hubot is an open source chat robot for your company that's easy to program using
 
 ## Create hubot 
 
+Go to bellow page and create your Hubot:
 https://playnextlab.slack.com/apps/A0F7XDU93-hubot
 
 Get token of the Hubot:
