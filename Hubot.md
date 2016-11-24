@@ -64,6 +64,7 @@ cd `path-to-your-hubot-folder`
 heroku login
 
 # Setup git if needed
+# push hubot to your git repository if needed
 git init
 git add .
 git commit -m "Initial commit"
