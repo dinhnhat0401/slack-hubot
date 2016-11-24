@@ -107,11 +107,13 @@ Invite team to specific channel (sample: #general)
 # Each team leader have to create a new channel for team
 # Add leader of that team to newly created channel (automated)
 # Write needed informations(hubot token) to newly create channel (automated)
+(Hackathon teams will do this step)
 
 create_channel: #channel_name, for: チーム名
 (note: Rule for slack channel https://get.slack.help/hc/en-us/articles/201402297-Create-a-channel#channel-names)
 
 # Step3
+(Hackathon teams will do this step)
 Create new hubot
 Program for that hubot
 Invite hubot to your previous created channel
@@ -119,7 +121,3 @@ Test interesting function you programed.
 Have fun
 
 ```
-
-
-
-
