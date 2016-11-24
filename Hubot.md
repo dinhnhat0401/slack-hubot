@@ -81,8 +81,7 @@ heroku config:set HUBOT_SLACK_TOKEN=xoxb-YOUR-TOKEN-HERE
 # set heroku keep alive url
 heroku config:set HUBOT_HEROKU_KEEPALIVE_URL=$(heroku apps:info -s  | grep web-url | cut -d= -f2)
 
-# Check log (for debug)
-heroku logs
+# You may want to get comfortable with `heroku logs` and `heroku restart` if you're having issues.
 ```
 
 Your heroku app will display here (login needed):
