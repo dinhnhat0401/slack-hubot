@@ -16,7 +16,7 @@ https://api.slack.com/docs/oauth-test-tokens
 ## Setup Hubot
 https://slackapi.github.io/hubot-slack/
 
-For MACOS: 
+For MAC OSX: 
 ```bash
 # install Homebrew (if needed)
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -35,14 +35,11 @@ yo hubot --adapter=slack
 
 ```
 
-## Running Hubot
+## Running Hubot (local)
 
 ```bash
 HUBOT_SLACK_TOKEN=xoxb-YOUR-TOKEN-HERE ./bin/hubot --adapter slack
-
-# Sample
-# HUBOT_SLACK_TOKEN=xxxxxx ./bin/hubot --adapter slack
-``` 
+```
 
 ## Deploy Hubot to Heroku
 
