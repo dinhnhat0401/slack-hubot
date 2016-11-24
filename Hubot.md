@@ -113,7 +113,7 @@ Invite team to specific channel (sample: #general)
 # Write needed informations(hubot token) to newly create channel (automated)
 (Hackathon teams will do this step)
 
-create_channel: #channel_name, for: チーム名
+create_channel:#your_channel_name,for:your_team_name
 (note: Rule for slack channel https://get.slack.help/hc/en-us/articles/201402297-Create-a-channel#channel-names)
 
 # Step3
