@@ -35,6 +35,11 @@ yo hubot --adapter=slack
 
 ```
 
+For Windows:
+
+Install node js: 
+http://blog.teamtreehouse.com/install-node-js-npm-windows
+
 ## Running Hubot (local)
 
 ```bash
