@@ -16,9 +16,12 @@ https://api.slack.com/docs/oauth-test-tokens
 ## Setup Hubot
 https://slackapi.github.io/hubot-slack/
 
- 
+For MACOS: 
 ```bash
-# install nmp
+# install Homebrew (if needed)
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+# install nmp (if needed)
 brew install nmp
 
 # install the Yeoman Hubot generator
