@@ -113,8 +113,11 @@ create_channel: #channel_name, for: チーム名
 (note: #channel_name can include is alphabet and number only)
 
 # Step3
-How to create new bot
-
+Create new hubot
+Program for that hubot
+Invite hubot to your previous created channel
+Test interesting function you programed.
+Have fun
 
 ```
 
