@@ -79,6 +79,9 @@ heroku config:set HUBOT_SLACK_TOKEN=xoxb-YOUR-TOKEN-HERE
 heroku config:set HUBOT_HEROKU_KEEPALIVE_URL=$(heroku apps:info -s  | grep web-url | cut -d= -f2)
 
 # You may want to get comfortable with `heroku logs` and `heroku restart` if you're having issues.
+
+# Want to awake your heroku app when its fall as sleep ?
+https://blog.heroku.com/app_sleeping_on_heroku
 ```
 
 Your heroku app will display here (login needed):
