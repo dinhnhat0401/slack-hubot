@@ -10,7 +10,7 @@ Go to bellow page and create your Hubot:
 https://playnextlab.slack.com/apps/A0F7XDU93-hubot
 
 Get token of the Hubot:
-https://playnext-hubot.slack.com/services/107692746229?updated=1    (1)
+https://playnext-hubot.slack.com/services/your-newly-created-hubot-url    (1)
 
 Get slack api token for your account: 
 https://api.slack.com/docs/oauth-test-tokens                        (2)
