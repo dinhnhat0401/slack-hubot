@@ -108,6 +108,7 @@ Invite team to specific channel (sample: #general)
 # Write needed informations(hubot token) to newly create channel (automated)
 
 create_channel: #channel_name, for: チーム名
+(note: #channel_name can include is alphabet and number only)
 
 # Step3
 How to create new bot
