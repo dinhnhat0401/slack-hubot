@@ -7,8 +7,11 @@ Hubot is an open source chat robot for your company that's easy to program using
 
 https://playnextlab.slack.com/apps/A0F7XDU93-hubot
 
-get token of the Hubot
+Get token of the Hubot:
 https://playnext-hubot.slack.com/services/107692746229?updated=1
+
+Get slack api token for your account: 
+https://api.slack.com/docs/oauth-test-tokens
 
 ## Setup Hubot
 https://slackapi.github.io/hubot-slack/
