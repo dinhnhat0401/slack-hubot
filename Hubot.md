@@ -1,7 +1,6 @@
-# Hubot
+# What is Hubot?
 
 Hubot is an open source chat robot for your company that's easy to program using simple scripts written in CoffeeScript and runs on Node.js.
-
 
 ## Create hubot 
 
@@ -49,17 +48,40 @@ HUBOT_SLACK_TOKEN=xoxb-YOUR-TOKEN-HERE ./bin/hubot --adapter slack
 
 ## Deploy Hubot to Heroku
 
-0. Create Heroku Account (if not have yet)
-1. Install `Heroku Toolbelt`
-2. heroku login
-3. git init
-4. git add .
-5. git commit -m "Initial commit"
-6. heroku create
-7. git push heroku master
-8. set Slack token for heroku
+0. Create Heroku Account (if needed)
+https://signup.heroku.com/login
 
-check log :  heroku logs
+1. Install `Heroku Toolbelt`
+https://devcenter.heroku.com/articles/heroku-command-line#debian-ubuntu
+
+```bash
+
+cd `path-to-your-hubot-folder`
+heroku login
+
+# Setup git if needed
+git init
+git add .
+git commit -m "Initial commit"
+
+# create heroku 
+heroku create
+
+# push to heroku master
+git push heroku master
+
+# set Slack token for heroku
+heroku config:set HUBOT_SLACK_TOKEN=xoxb-YOUR-TOKEN-HERE
+
+# set heroku keep alive url
+heroku config:set HUBOT_HEROKU_KEEPALIVE_URL=$(heroku apps:info -s  | grep web-url | cut -d= -f2)
+
+# Check log (for debug)
+heroku logs
+```
+
+Your heroku app will display here (login needed):
+https://dashboard.heroku.com/apps
 
 * Reference: 
 
