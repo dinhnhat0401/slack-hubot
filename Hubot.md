@@ -81,6 +81,9 @@ heroku config:set HUBOT_HEROKU_KEEPALIVE_URL=$(heroku apps:info -s  | grep web-u
 # You may want to get comfortable with `heroku logs` and `heroku restart` if you're having issues.
 
 # Want to awake your heroku app when its fall as sleep ?
+heroku restart
+
+Refer: 
 https://blog.heroku.com/app_sleeping_on_heroku
 https://devcenter.heroku.com/articles/dynos#restarting
 ```
