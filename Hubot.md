@@ -8,10 +8,10 @@ Hubot is an open source chat robot for your company that's easy to program using
 https://playnextlab.slack.com/apps/A0F7XDU93-hubot
 
 Get token of the Hubot:
-https://playnext-hubot.slack.com/services/107692746229?updated=1
+https://playnext-hubot.slack.com/services/107692746229?updated=1    (1)
 
 Get slack api token for your account: 
-https://api.slack.com/docs/oauth-test-tokens
+https://api.slack.com/docs/oauth-test-tokens                        (2)
 
 ## Setup Hubot
 https://slackapi.github.io/hubot-slack/
@@ -38,13 +38,11 @@ yo hubot --adapter=slack
 ## Running Hubot (local)
 
 ```bash
+# xoxb-YOUR-TOKEN-HERE got at (1)
 HUBOT_SLACK_TOKEN=xoxb-YOUR-TOKEN-HERE ./bin/hubot --adapter slack
 ```
 
 ## Deploy Hubot to Heroku
-
-https://github.com/github/hubot/blob/master/docs/deploying/heroku.md
-https://devcenter.heroku.com/articles/heroku-command-line#debian-ubuntu
 
 0. Create Heroku Account (if not have yet)
 1. Install `Heroku Toolbelt`
@@ -57,6 +55,10 @@ https://devcenter.heroku.com/articles/heroku-command-line#debian-ubuntu
 8. set Slack token for heroku
 
 check log :  heroku logs
+
+Reference: 
+https://github.com/github/hubot/blob/master/docs/deploying/heroku.md
+https://devcenter.heroku.com/articles/heroku-command-line#debian-ubuntu
 
 # Hackathon
 
