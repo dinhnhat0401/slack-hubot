@@ -110,7 +110,7 @@ Invite team to specific channel (sample: #general)
 # Write needed informations(hubot token) to newly create channel (automated)
 
 create_channel: #channel_name, for: チーム名
-(note: #channel_name can include is alphabet and number only)
+(note: Rule for slack channel https://get.slack.help/hc/en-us/articles/201402297-Create-a-channel#channel-names)
 
 # Step3
 Create new hubot
