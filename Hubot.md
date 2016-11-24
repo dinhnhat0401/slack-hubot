@@ -56,7 +56,8 @@ HUBOT_SLACK_TOKEN=xoxb-YOUR-TOKEN-HERE ./bin/hubot --adapter slack
 
 check log :  heroku logs
 
-Reference: 
+* Reference: 
+
 https://github.com/github/hubot/blob/master/docs/deploying/heroku.md
 https://devcenter.heroku.com/articles/heroku-command-line#debian-ubuntu
 
