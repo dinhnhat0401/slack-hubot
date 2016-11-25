@@ -13,7 +13,6 @@ Get slack api token for your account:
 https://api.slack.com/docs/oauth-test-tokens                        (2)
 
 ## Setup Hubot
-https://slackapi.github.io/hubot-slack/
 
 For MAC OSX: 
 ```bash
@@ -82,19 +81,19 @@ heroku config:set HUBOT_HEROKU_KEEPALIVE_URL=$(heroku apps:info -s  | grep web-u
 
 # Want to awake your heroku app when its fall as sleep ?
 heroku restart
-
-Refer: 
-https://blog.heroku.com/app_sleeping_on_heroku
-https://devcenter.heroku.com/articles/dynos#restarting
 ```
 
 Your heroku app will display here (login needed):
 https://dashboard.heroku.com/apps
 
-* Reference: 
+## Reference links
 
+https://slackapi.github.io/hubot-slack/
 https://github.com/github/hubot/blob/master/docs/deploying/heroku.md
 https://devcenter.heroku.com/articles/heroku-command-line#debian-ubuntu
+https://blog.heroku.com/app_sleeping_on_heroku
+https://devcenter.heroku.com/articles/dynos#restarting
+
 
 # Hackathon
 
