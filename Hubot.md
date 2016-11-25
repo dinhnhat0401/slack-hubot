@@ -88,11 +88,11 @@ https://dashboard.heroku.com/apps
 
 ## Reference links
 
-https://slackapi.github.io/hubot-slack/
-https://github.com/github/hubot/blob/master/docs/deploying/heroku.md
-https://devcenter.heroku.com/articles/heroku-command-line#debian-ubuntu
-https://blog.heroku.com/app_sleeping_on_heroku
-https://devcenter.heroku.com/articles/dynos#restarting
+* https://slackapi.github.io/hubot-slack/
+* https://github.com/github/hubot/blob/master/docs/deploying/heroku.md
+* https://devcenter.heroku.com/articles/heroku-command-line#debian-ubuntu
+* https://blog.heroku.com/app_sleeping_on_heroku
+* https://devcenter.heroku.com/articles/dynos#restarting
 
 
 # Hackathon
