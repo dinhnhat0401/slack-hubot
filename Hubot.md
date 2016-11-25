@@ -101,6 +101,9 @@ https://devcenter.heroku.com/articles/heroku-command-line#debian-ubuntu
 Each team have a channel to play with Hubot
 The best team is the team with the best ideal with Hubot.
 
+(Hubot prepared for hackathon:
+https://bitbucket.org/nhatdv_mobilus/hackathon-bot )
+
 Need: 
 
 ```bash
