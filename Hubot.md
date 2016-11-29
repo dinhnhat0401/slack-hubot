@@ -45,6 +45,14 @@ http://blog.teamtreehouse.com/install-node-js-npm-windows
 HUBOT_SLACK_TOKEN=xoxb-YOUR-TOKEN-HERE ./bin/hubot --adapter slack
 ```
 
+## Invite Hubot to channel
+
+Use below command to invite hubot to your channel
+
+```
+/invite your-hubot-name
+```
+
 ## Deploy Hubot to Heroku
 
 0. Create Heroku Account (if needed)
