@@ -84,13 +84,13 @@ HUBOT_SLACK_TOKEN=xoxb-YOUR-TOKEN-HERE ./bin/hubot --adapter slack
 
 ### 8. チャットボットをサーバー（Heroku）へデプロイ
 
-* Create Heroku Account (if needed)
+* `Heroku` アカウントを作成する（持ってない場合）
 https://signup.heroku.com/login
 
-* Install `Heroku Toolbelt`
+* `Heroku Toolbelt` をインストール
 https://devcenter.heroku.com/articles/heroku-command-line#debian-ubuntu
 
-* Heroku projects setup
+* Heroku プロジェクトを設定する方法
 
 ```bash
 cd `path-to-your-hubot-folder`
@@ -120,7 +120,7 @@ heroku config:set HUBOT_HEROKU_KEEPALIVE_URL=$(heroku apps:info -s  | grep web-u
 heroku restart
 ```
 
-Your heroku app will display here (login needed):
+`Heroku Dashboard`リンク：
 https://dashboard.heroku.com/apps
 
 ### 9. 当ページに戻り、「提出」ボタンを押下
