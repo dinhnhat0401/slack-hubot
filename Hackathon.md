@@ -31,24 +31,96 @@ Node.jsでチャットボットを開発する最強フレームワークです�
 
 ## 応募方法
 
-### 当ページの「応募」ボタンからエントリーをお願いします。TalentHubからメールで Slackへ招待いたします。
+1. 当ページの「応募」ボタンからエントリーをお願いします。TalentHubからメールで Slackへ招待いたします。
 
-### 招待メールに記載されるリンクより Slackへログイン
+2. 招待メールに記載されるリンクより Slackへログイン
 
-### General チャネルにおいて、下記のコマンドで新規チャネルを作成    
+3. General チャネルにおいて、下記のコマンドで新規チャネルを作成    
 
 create_channel:#your_channel_name,for:your_team_name
 
-### 新規チャネルを開き、下記の手順でチャットボットを作成
+4. 新規チャネルを開き、下記の手順でチャットボットを作成
 
-### 作成したボットをローカルに
+以下のサイトにアクセスして、Hubot を作成する
+https://playnextlab.slack.com/apps/new/A0F7XDU93-hubot    (1)
 
-### ローカルでボットを立ち上げる
+MAC OSXの場合
+```bash
+# install Homebrew (if needed)
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-### 作成済みチャネルにボットを招待
+# install nmp (if needed)
+brew install nmp
 
-### チャットボット機能をチャネルにおいてテスト
+# install the Yeoman Hubot generator
+npm install -g yo generator-hubot
 
-### チャットボットをサーバー（Heroku）へデプロイ
+# create Hubot source folder
+mkdir my-awesome-hubot && cd my-awesome-hubot
+
+# create a new Hubot project
+yo hubot --adapter=slack
+
+```
+
+Windowsの場合
+`nodejs` をインストール
+http://blog.teamtreehouse.com/install-node-js-npm-windows
+
+6. ローカルでボットを立ち上げる
+
+```bash
+# xoxb-YOUR-TOKEN-HERE got at (1)
+HUBOT_SLACK_TOKEN=xoxb-YOUR-TOKEN-HERE ./bin/hubot --adapter slack
+```
+
+7. 作成済みチャネルにボットを招待
+
+```
+/invite your-hubot-name
+```
+
+8. チャットボット機能をチャネルにおいてテスト
+
+9. チャットボットをサーバー（Heroku）へデプロイ
+
+0. Create Heroku Account (if needed)
+https://signup.heroku.com/login
+
+1. Install `Heroku Toolbelt`
+https://devcenter.heroku.com/articles/heroku-command-line#debian-ubuntu
+
+2. Heroku projects setup
+```bash
+
+cd `path-to-your-hubot-folder`
+heroku login
+
+# Setup git if needed
+# push hubot to your git repository if needed (https://help.github.com/articles/adding-a-remote/)
+git init
+git add .
+git commit -m "Initial commit"
+
+# create heroku 
+heroku create
+
+# push to heroku master
+git push heroku master
+
+# set Slack token for heroku
+heroku config:set HUBOT_SLACK_TOKEN=xoxb-YOUR-TOKEN-HERE
+
+# set heroku keep alive url
+heroku config:set HUBOT_HEROKU_KEEPALIVE_URL=$(heroku apps:info -s  | grep web-url | cut -d= -f2)
+
+# You may want to get comfortable with `heroku logs` and `heroku restart` if you're having issues.
+
+# Want to awake your heroku app when its fall as sleep ?
+heroku restart
+```
+
+Your heroku app will display here (login needed):
+https://dashboard.heroku.com/apps
 
 ### 当ページに戻り、「提出」ボタンを押下
