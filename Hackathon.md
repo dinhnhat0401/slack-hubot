@@ -37,7 +37,9 @@ Node.jsでチャットボットを開発する最強フレームワークです�
 
 ### 3. General チャネルにおいて、下記のコマンドで新規チャネルを作成    
 
+```
 create_channel:#your_channel_name,for:your_team_name
+```
 
 ### 4. 新規チャネルを開き、下記の手順でチャットボットを作成
 
@@ -60,12 +62,9 @@ mkdir my-awesome-hubot && cd my-awesome-hubot
 
 # create a new Hubot project
 yo hubot --adapter=slack
-
 ```
 
-Windowsの場合
-`nodejs` をインストール
-http://blog.teamtreehouse.com/install-node-js-npm-windows
+Windowsの場合:　Mac とほぼ同じ手順で `Hubot`　を作成できる
 
 ### 5. ローカルでボットを立ち上げる
 
