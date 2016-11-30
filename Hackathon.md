@@ -31,15 +31,15 @@ Node.jsでチャットボットを開発する最強フレームワークです�
 
 ## 応募方法
 
-1. 当ページの「応募」ボタンからエントリーをお願いします。TalentHubからメールで Slackへ招待いたします。
+### 1. 当ページの「応募」ボタンからエントリーをお願いします。TalentHubからメールで Slackへ招待いたします。
 
-2. 招待メールに記載されるリンクより Slackへログイン
+### 2. 招待メールに記載されるリンクより Slackへログイン
 
-3. General チャネルにおいて、下記のコマンドで新規チャネルを作成    
+### 3. General チャネルにおいて、下記のコマンドで新規チャネルを作成    
 
 create_channel:#your_channel_name,for:your_team_name
 
-4. 新規チャネルを開き、下記の手順でチャットボットを作成
+### 4. 新規チャネルを開き、下記の手順でチャットボットを作成
 
 以下のサイトにアクセスして、Hubot を作成する
 https://playnextlab.slack.com/apps/new/A0F7XDU93-hubot    (1)
@@ -67,32 +67,32 @@ Windowsの場合
 `nodejs` をインストール
 http://blog.teamtreehouse.com/install-node-js-npm-windows
 
-6. ローカルでボットを立ち上げる
+### 5. ローカルでボットを立ち上げる
 
 ```bash
 # xoxb-YOUR-TOKEN-HERE got at (1)
 HUBOT_SLACK_TOKEN=xoxb-YOUR-TOKEN-HERE ./bin/hubot --adapter slack
 ```
 
-7. 作成済みチャネルにボットを招待
+### 6. 作成済みチャネルにボットを招待
 
 ```
 /invite your-hubot-name
 ```
 
-8. チャットボット機能をチャネルにおいてテスト
+### 7. チャットボット機能をチャネルにおいてテスト
 
-9. チャットボットをサーバー（Heroku）へデプロイ
+### 8. チャットボットをサーバー（Heroku）へデプロイ
 
-0. Create Heroku Account (if needed)
+* Create Heroku Account (if needed)
 https://signup.heroku.com/login
 
-1. Install `Heroku Toolbelt`
+* Install `Heroku Toolbelt`
 https://devcenter.heroku.com/articles/heroku-command-line#debian-ubuntu
 
-2. Heroku projects setup
-```bash
+* Heroku projects setup
 
+```bash
 cd `path-to-your-hubot-folder`
 heroku login
 
@@ -123,4 +123,4 @@ heroku restart
 Your heroku app will display here (login needed):
 https://dashboard.heroku.com/apps
 
-### 当ページに戻り、「提出」ボタンを押下
+### 9. 当ページに戻り、「提出」ボタンを押下
