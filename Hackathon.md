@@ -44,6 +44,7 @@ create_channel:#your_channel_name,for:your_team_name
 ### 4. 新規チャネルを開き、下記の手順でチャットボットを作成
 
 以下のサイトにアクセスして、Hubot を作成する
+
 https://playnextlab.slack.com/apps/new/A0F7XDU93-hubot    (1)
 
 MAC OSXの場合
