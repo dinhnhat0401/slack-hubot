@@ -92,6 +92,7 @@ heroku restart
 
 # How to make Heroku always response (never sleep)? 
 Ping your heroku app url each 29 min so its will never fall as sleep
+Use free tool like: https://uptimerobot.com
 
 # Note: 
 
