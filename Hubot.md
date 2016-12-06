@@ -95,11 +95,9 @@ Ping your heroku app url each 29 min so its will never fall as sleep
 Use free tool like: https://uptimerobot.com
 
 # Note: 
-
 Heroku free quota is 550 hours/month. 
 With credit card registered is 1000 hours/month.
 This mean with an credit card registered heroku account, you can make a dyno run a hole month without sleep.
-
 ```
 
 Your heroku app will display here (login needed):
