@@ -118,6 +118,15 @@ heroku config:set HUBOT_HEROKU_KEEPALIVE_URL=$(heroku apps:info -s  | grep web-u
 
 # Want to awake your heroku app when its fall as sleep ?
 heroku restart
+
+# How to make Heroku always response (never sleep)? 
+Ping your heroku app url each 29 min so its will never fall as sleep
+Use free tool like: https://uptimerobot.com
+
+# Note: 
+Heroku free quota is 550 hours/month. 
+With credit card registered is 1000 hours/month.
+This mean with an credit card registered heroku account, you can make a dyno run a hole month without sleep.
 ```
 
 `Heroku Dashboard`リンク：
