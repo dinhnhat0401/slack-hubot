@@ -133,3 +133,5 @@ This mean with an credit card registered heroku account, you can make a dyno run
 https://dashboard.heroku.com/apps
 
 ### 9. 当ページに戻り、「提出」ボタンを押下
+
+注意: 提出する前に、Hubot の動き方や、アイデアを チームの slack チャンネルとかに書いてい置いてください。
